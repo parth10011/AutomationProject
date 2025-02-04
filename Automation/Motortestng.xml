@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="ICGMS_MotorClaim._04_MotorClaim_CustomerReview"/>
+      <class name="ICGMS_MotorClaim._05_MotorClaim_RepairerAppointment"/>
+      <class name="ICGMS_MotorClaim._06_MotorClaim_RepairerReport"/>
+      <class name="ICGMS_MotorClaim._07_MotorClaim_QCApproval"/>
+      <class name="ICGMS_MotorClaim._08_MotorClaim_InsurerVerification"/>
+      <class name="ICGMS_MotorClaim._09_MotorClaim_SurveyorAppointment"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
